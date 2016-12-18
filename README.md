@@ -1,9 +1,9 @@
 # flacup - autoupload flac to gazelle
 ##modified by nwcd 12/18/2016
-##added functionality to check between 16/24bit
-##added functionality to run in batch as a shell script
-##changed folder renaming to match nwcd guidelines
-##flacup is based on autotunes
+###added functionality to check between 16/24bit
+###added functionality to run in batch as a shell script
+###changed folder renaming to match nwcd guidelines
+###flacup is based on autotunes
 flacup WILL rename your folders with the corresponding match, if it doesn't match press B to abort.
 
 #Setup instructions
