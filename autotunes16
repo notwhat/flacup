@@ -355,7 +355,7 @@ def autotunes_main(args, lib=None):
     parser.add_argument("album", help="path to the album you want to upload", nargs="+")
     args = parser.parse_args()
     mb.configure()
-    password = "p4ssth34mm0WHAT!"
+    password = "REPLACEME"
     upload_files(args.album, args.output_dir, args.username, password)
 
 
