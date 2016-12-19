@@ -7,7 +7,7 @@ import shutil
 import string
 import sys
 import textwrap
-import whatapi
+import whatapi16
 from beets.autotag import AlbumMatch, Recommendation
 from beets.autotag import mb
 from beets import importer, autotag, ui
@@ -323,7 +323,7 @@ class UploadSession(TerminalImportSession):
         self.want_resume = False
         self.config = NoneDict()
         self.output_dir = output_dir
-        self.api = whatapi.WhatAPI(username, password)
+        self.api = whatapi16.WhatAPI(username, password)
         super().__init__(None, None, paths, None)
 
     def run(self):
