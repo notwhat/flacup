@@ -16,17 +16,14 @@
 #
 
 
-#Setup instructions
-Install flacup:
+###Install flacup:
 #
-    Install Python 3, mktorrent, metaflac
-    sudo apt-get install python3 python3-setuptools metaflac mktorrent
-    Install the dependencies with sudo pip3 install -r requirements.txt. 
+    ./setup.sh
     Open and modify the username and path variables at the top of flacup.sh
     Set passwords in autotunes24 and autotunes16 by searching for REPLACEME string
 #
 
-To Do:
+###To Do:
 #
     Dupe-checking is not yet implemented.
     Only works with 24bit or 16bit FLAC for now.
