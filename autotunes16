@@ -323,7 +323,7 @@ class UploadSession(TerminalImportSession):
         self.want_resume = False
         self.config = NoneDict()
         self.output_dir = output_dir
-        self.api = whatapi16.WhatAPI(username, password)
+        self.api = whatapi.WhatAPI(username, password)
         super().__init__(None, None, paths, None)
 
     def run(self):
