@@ -55,7 +55,7 @@ fi
 getbitrate
 
 echo "Reported as $BITRATE bit - Operation #flacup"
-sudo python3 ./autotunes$BITRATE -o . $USER "$line" </dev/tty
+python3 ./autotunes$BITRATE -o . $USER "$line" </dev/tty
 
 
 done < flacout.tmp
