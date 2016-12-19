@@ -9,12 +9,10 @@ flacup WILL rename your folders with the corresponding match, if it doesn't matc
 #Setup instructions
 Install flacup:
 #
-    Install Python 3.
-    Install Metaflac.
-    Install mktorrent
-    Install the latest version of mktorrent from https://github.com/Rudde/mktorrent.
+    Install Python 3, mktorrent, metaflac
+    apt-get install python3 python3-setuptools metaflac mktorrent
     Install the dependencies with sudo pip3 install -r requirements.txt. 
-    Open and modify the username and path variables in flacup.sh
+    Open and modify the username and path variables at the top of flacup.sh
     Set passwords in autotunes24 and autotunes16 by searching for REPLACEME string
 #
 
