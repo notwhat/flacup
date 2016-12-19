@@ -3,7 +3,7 @@
 ####added functionality to check between 16/24bit
 ####added functionality to run in batch as a shell script
 ####changed folder renaming to match nwcd guidelines
-####flacup is based on autotunes
+####flacup is based on autotunes - https://bitbucket.org/whatbetter/autotunes
 flacup WILL rename your folders with the corresponding match, if it doesn't match press B to abort.
 
 #Setup instructions
