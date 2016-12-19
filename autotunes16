@@ -289,7 +289,7 @@ def rename_album(album, album_dir):
     path = album_template.substitute(
        artist=textwrap.shorten(album.artist, width=50, placeholder="_"),
         album=textwrap.shorten(album.album, width=40, placeholder="_"),
-        label=album.label;
+        label=album.label,
         year=album.year,
         format="Lossless"  # TODO
    )
