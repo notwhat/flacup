@@ -18,6 +18,7 @@
 
 ###Install flacup:
 #
+    Dependencies: python3 python3-setuptools mktorrent git flac
     ./setup.sh
     Open and modify the username and path variables at the top of flacup.sh
     Set passwords in autotunes24 and autotunes16 by searching for REPLACEME string
